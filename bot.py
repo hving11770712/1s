@@ -1,3 +1,4 @@
+#File đã fix tất cả mọi lỗi, nếu bạn không biết cài đặt vui lòng nhắn tin tới t.me/qqaassdd1231 để được hướng dẫn
 import logging
 import json
 from datetime import datetime
@@ -8,13 +9,10 @@ import pytz
 import hashlib
 import math
 from collections import Counter
-from keep_alive import keep_alive
-keep_alive()
-
 
 # === CẤU HÌNH ===
-TOKEN = "7593769015:AAE6f3DZdCbFwlvmXalhiwsyk2frJSUKpCk"
-ADMIN_ID = 7761915412 # ID admin chính
+TOKEN = "" #Token bot của bạn
+ADMIN_ID = xxxxxxxxxx # ID admin chính
 activated_users = {}
 now = datetime.now().strftime("%H:%M:%S - %d/%m/%Y")
 
